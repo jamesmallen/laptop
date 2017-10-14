@@ -113,9 +113,6 @@ brew bundle --file=- <<EOF
 tap "homebrew/services"
 tap "caskroom/cask"
 
-# Web Dev
-brew "google-chrome"
-
 # Unix
 brew "git"
 brew "openssl"
@@ -148,6 +145,7 @@ brew "trash"
 cask "the-unarchiver"
 
 # Development tools
+cask "google-chrome"
 cask "docker"
 cask "pycharm"
 cask "sequel-pro"
