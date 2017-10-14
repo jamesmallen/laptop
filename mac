@@ -113,6 +113,10 @@ brew bundle --file=- <<EOF
 tap "homebrew/services"
 tap "caskroom/cask"
 
+# Web Dev
+brew "google-chrome"
+brew "
+
 # Unix
 brew "git"
 brew "openssl"
@@ -149,6 +153,9 @@ cask "docker"
 cask "pycharm"
 cask "sequel-pro"
 cask "postico"
+cask "sublime-text"
+cask "iterm2"
+
 
 EOF
 
@@ -158,6 +165,11 @@ npm install -g generator-djangospa
 
 fancy_echo "Installing Python packages ..."
 pyenv install 3.6.3
+
+
+fancy_echo "Installing oh-my-zsh ..."
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 
 
 # if brew list | grep --silent "qt@5.5"; then
