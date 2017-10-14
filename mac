@@ -115,7 +115,6 @@ tap "caskroom/cask"
 
 # Web Dev
 brew "google-chrome"
-brew "
 
 # Unix
 brew "git"
